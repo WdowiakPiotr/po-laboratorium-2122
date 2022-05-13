@@ -1,5 +1,5 @@
 """
-ASGI config for baza_mr project.
+ASGI config for polls project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'baza_mr.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'polls.settings')
 
 application = get_asgi_application()
