@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1> Cars </h1>
+
+    {% for Car in object_list %}
+        <li>{{Car.marka }}</li>
+    {% empty %}
+        <li>No Cars yet.</li>
+    {% endfor %}
+</body>
+</html>

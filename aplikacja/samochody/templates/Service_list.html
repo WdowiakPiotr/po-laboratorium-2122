@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1> Services </h1>
+
+    {% for Service in object_list %}
+        <li>{{Service.data }}</li>
+    {% empty %}
+        <li>No Services yet.</li>
+    {% endfor %}
+</body>
+</html>
